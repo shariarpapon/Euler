@@ -22,6 +22,11 @@ const commands =
     'deriv - returns the derivative of the function passed in as an image \nExample: do. deriv ln(x)/sin(x) \nThis returns the derivative of f(x)=ln(x)/sin(x)'
 ];
 
+const blacklistedWords = 
+[
+    "cunt", "faggot", "fag", "nigger", "nigga"
+];
+
 client.on('ready', ()=>{console.log('Euler Online!');});
 
 client.commands = new Discord.Collection();
