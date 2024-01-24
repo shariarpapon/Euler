@@ -24,7 +24,7 @@ const commands =
 
 const blacklistedWords = 
 [
-    "cunt", "faggot", "fag", "nigger", "nigga"
+    ""
 ];
 
 client.on('ready', ()=>{console.log('Euler Online!');});
